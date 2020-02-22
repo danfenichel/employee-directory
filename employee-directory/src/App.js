@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import Header from "./components/Header";
 import EnhancedTable from "./components/Table";
+import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <EnhancedTable />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
